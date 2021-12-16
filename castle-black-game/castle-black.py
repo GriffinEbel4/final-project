@@ -176,6 +176,9 @@ def verticleCollision(verticle_DragonX, verticle_DragonY, spearX, spearY):
         return True
     else:
         return False
+    
+print("Instructions: Move your character left and right with the arrow keys. Throw spear with the space bar to kill the red dragons and fire the canon with left shift to kill the green dragons.")
+print("If they touch you, you lose. Good luck!")
 
 running = True
 while running:
